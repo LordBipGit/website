@@ -1,2 +1,18 @@
-<h1> how to execute php in html</h1>
-<?php echo 'Hello World';?>
+
+                                    <style type="text/css">
+                                        #buyButtonBlockForJS {
+                                            display: none;
+                                        }
+                                    </style>
+                                    <form method="POST" action="/purchase.php">
+                                        Payment Method: 
+                                        <select name="paymentMethod">
+                                            <option value="btc">Bitcoin</option>&nbsp;&nbsp;                                        </select><br><br>
+                                        
+                                        <input class="form-control" type="email" name="email" placeholder="E-mail"/><br>
+                                        <input type="hidden" name="referer" value="https://rocketr.net/seller/products"/>
+                                        <input type="hidden" name="productId" value="462443f40d95"/>
+                                        <input class="btn btn-primary btn-small waves-effect waves-light" type="submit" value="Buy Now">
+                                        
+                                    </form>
+                                
