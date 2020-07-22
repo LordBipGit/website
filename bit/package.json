@@ -20,7 +20,7 @@
   "author": "Mikko Ohtamaa <mikko@opensourcehacker.com> (http://opensourcehacker.com)",
   "license": "MIT",
   "devDependencies": {
-    "jquery": "2.1.0-beta3",
+    "jquery": "3.5.1",
     "mocha": "~1.16.2",
     "chai": "~1.8.1",
     "mocha-phantomjs": "~3.3.1",
